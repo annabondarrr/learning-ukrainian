@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<!-- For IE -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- For Resposive Device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- For Window Tab Color -->
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#061948">
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#061948">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="#061948">
+		<title>Солов'їна мова</title>
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="56x56" href="images/logo/logo.png">
+		<!-- Main style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- responsive style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+		<!-- Fix Internet Explorer ______________________________________-->
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="vendor/html5shiv.js"></script>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->	
+	</head>
+
+	<body>
+		<div class="main-page-wrapper">
+
+			<!-- ===================================================
+				Loading Transition
+			==================================================== -->
+			<div id="loader-wrapper">
+				<div id="loader"></div>
+			</div>
+
+			
+
+			<!-- 
+			=============================================
+				Theme Header Two
+			============================================== 
+			-->
+			<header class="header-two">
+				<div class="top-header">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 col-sm-8 col-12">
+								<ul class="left-widget">
+									<li>Плекайте мову!</li>
+								</ul>
+							</div>
+						</div> <!-- /.row -->
+					</div> <!-- /.container -->
+				</div> <!-- /.top-header -->
+
+				<div class="theme-menu-wrapper">
+					<div class="container">
+						<div class="bg-wrapper clearfix">
+							<div class="logo float-left"><a href="index.html"><img src="images/logo/logo.png" alt=""></a></div>
+							<!-- ============== Menu Warpper ================ -->
+					   		<div class="menu-wrapper float-left">
+					   			<nav id="mega-menu-holder" class="clearfix">
+								   <ul class="clearfix">
+									    <li><a href="#">Відомості про мову</a>
+									    	<ul class="dropdown">
+									    		<li><a href="spread.html">Поширення</a></li>
+									    		<li><a href="history.html">Історія</a></li>
+									       </ul>
+									    </li>
+									    <li><a href="#">Правила</a>
+									    	<ul class="dropdown">
+									        	<li><a href="morphology.html">Морфологія</a></li>
+									        	<li><a href="syntax.html">Синтаксис</a></li>
+									        	<li><a href="orthography.html">Орфографія</a></li>
+									       </ul>
+									    </li>
+									    <li><a href="#">Тестування</a>
+									    	<ul class="dropdown">
+									        	<li><a href="morphology-test.html">Тестування з морфології</a></li>
+									        	<li><a href="syntax-text.html">Тестування з синтаксису</a></li>
+                                                <li><a href="orthography-test.html">Тестування з орфографії</a></li>
+                                                <li><a href="mixed-test.html">Тестування з змішаних тем</a></li>
+									       </ul>
+									    </li>
+                                       <li><a href="author.html">Про авторку</a>
+                                       </li>
+                                       <li><a href="contact.html">Feedback</a>
+                                       </li>
+								   </ul>
+								</nav> <!-- /#mega-menu-holder -->
+					   		</div> <!-- /.menu-wrapper -->
+						</div> <!-- /.bg-wrapper -->
+					</div> <!-- /.container -->
+				</div> <!-- /.theme-menu-wrapper -->
+			</header> <!-- /.header-two -->
+
+			
+            
+            <div class="theme-inner-banner section-spacing">
+				<div class="overlay">
+					<div class="container">
+						<h2>Тестування з синтаксису</h2>
+					</div> <!-- /.container -->
+				</div> <!-- /.overlay -->
+			</div> <!-- /.theme-inner-banner -->
+            
+            
+            <div class="container">
+				<div class="row">
+          <div class="col-lg-10 ftco-animate">
+              <hr align="center" width="100%" size="100" />
+              <header>
+                    <div class="left-title">Тестування з синтаксису</div>
+                    <div class="right-title">Кількість запитань: <span id="tque"></span></div>
+                    <div class="clearfix"></div>
+                </header>
+                
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div id="result" class="quiz-body">
+                                    <form name="quizForm" onSubmit="">
+                                        <fieldset class="form-group">
+                                            <h3><span id="qid">1.</span> <span id="question"></span></h3>
+                                            <div class="option-block-container" id="question-options"> </div>
+                                            <!-- End of option block -->
+                                        </fieldset> <button name="previous" id="previous" class="btn btn-success">Previous</button>
+                                        &nbsp; <button name="next" id="next" class="btn btn-success">Next</button>
+                                    </form>
+                                </div>
+                            </div> <!-- End of col-sm-12 -->
+                        </div> <!-- End of row -->
+                    </div> <!-- ENd of container fluid -->
+        
+                    </div></div></div>
+
+
+			<!--
+			=====================================================
+				Google Map
+			=====================================================
+			-->
+			<!-- Google Map -->
+			<div class="google-map-one"><div class="map-canvas"></div></div>
+			
+
+			<!--
+			=====================================================
+				Footer
+			=====================================================
+			-->
+			<footer class="theme-footer-two">
+				<div class="top-footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4 col-sm-6 col-12 logo-widget">
+								<ul class="social-icon">
+									<li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.pinterest.de/"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+								</ul>
+							</div> <!-- /.logo-widget -->
+							
+							<div class="col-lg-3 col-sm-6 col-12 contact-widget">
+								<h6 class="title">CONTACT</h6>
+								<ul>
+									<li>
+										<i class="flaticon-direction-signs"></i>
+										вулиця Гайдамацька, 9А, Рівне, Рівненська область, Україна, 33000
+									</li>
+									<li>
+										<i class="flaticon-multimedia-1"></i>
+										<a href="#">elitar.rivne@gmail.com</a>
+									</li>
+									<li>
+										<i class="fa fa-phone" aria-hidden="true"></i>
+										<a href="#"> 0362-65-18-97</a>
+									</li>
+								</ul>
+							</div> <!-- /.contact-widget -->
+						</div> <!-- /.row -->
+					</div> <!-- /.container -->
+				</div> <!-- /.top-footer -->
+				<div class="bottom-footer">
+					<div class="container">
+						<p>&copy; Elitar. 2022</p>
+					</div>
+				</div> <!-- /.bottom-footer -->
+			</footer> <!-- /.theme-footer-two -->
+			
+
+	        
+
+	        <!-- Scroll Top Button -->
+			<button class="scroll-top tran3s">
+				<i class="fa fa-angle-up" aria-hidden="true"></i>
+			</button>
+			
+
+
+		<!-- Optional JavaScript _____________________________  -->
+
+    	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    	<!-- jQuery -->
+		<script src="vendor/jquery.2.2.3.min.js"></script>
+		<!-- Popper js -->
+		<script src="vendor/popper.js/popper.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+		<!-- Camera Slider -->
+		<script src='vendor/Camera-master/scripts/jquery.mobile.customized.min.js'></script>
+	    <script src='vendor/Camera-master/scripts/jquery.easing.1.3.js'></script> 
+	    <script src='vendor/Camera-master/scripts/camera.min.js'></script>
+	    <!-- menu  -->
+		<script src="vendor/menu/src/js/jquery.slimmenu.js"></script>
+		<!-- WOW js -->
+		<script src="vendor/WOW-master/dist/wow.min.js"></script>
+		<!-- owl.carousel -->
+		<script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+		<!-- js count to -->
+		<script src="vendor/jquery.appear.js"></script>
+		<script src="vendor/jquery.countTo.js"></script>
+		<!-- Fancybox -->
+		<script src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+		<!-- Language Stitcher -->
+		<script src="vendor/language-switcher/jquery.polyglot.language.switcher.js"></script>
+		<!-- Google map js -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjQLCCbRKFhsr8BY78g2PQ0_bTyrm_YXU"></script>
+		<script src="vendor/sanzzy-map/dist/snazzy-info-window.min.js"></script>
+
+		<!-- Theme js -->
+        <script src="js/app.js" questions="syntax"></script>
+		<script src="js/theme.js"></script>
+		<script src="js/map-script.js"></script>
+		</div> <!-- /.main-page-wrapper -->
+	</body>
+</html>
